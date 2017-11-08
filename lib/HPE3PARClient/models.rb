@@ -1157,11 +1157,11 @@ module HPE3PARClient
 
     # [type - Number]
     # System contains an over provisioned allocated MiB.
-    attr_accessor :overProvisioned_allocated_in_mib
+    attr_accessor :overprovisioned_allocated_in_mib
 
     # [type - Number]
     # System contains an over provisioned free MiB.
-    attr_accessor :over_provisioned_free_in_mib
+    attr_accessor :overprovisioned_free_in_mib
 
     # [type - CapEfficiency]
     # Capacity efficiency attributes.
@@ -1178,11 +1178,11 @@ module HPE3PARClient
 
       self.overprovisioned_virtualsize_in_mib = object_hash['overProvisionedVirtualSizeMiB']
 
-      self.overprovisioned_used_in_mib= object_hash['overprovisionedUsedMiB']
+      self.overprovisioned_used_in_mib= object_hash['overProvisionedUsedMiB']
 
-      self.overProvisioned_allocated_in_mib = object_hash['overProvisionedAllocatedMiB']
+      self.overprovisioned_allocated_in_mib = object_hash['overProvisionedAllocatedMiB']
 
-      self.over_provisioned_free_in_mib = object_hash['overProvisionedFreeMiB']
+      self.overprovisioned_free_in_mib = object_hash['overProvisionedFreeMiB']
 
       self.capacitefficiency = CapEfficiency.new(object_hash['capacityEfficiency'])
 
