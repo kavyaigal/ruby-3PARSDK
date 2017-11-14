@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hpe-storage/ruby-3PARSDK.svg?branch=master)](https://travis-ci.org/hpe-storage/ruby-3PARSDK)
+
 HPE 3PAR Software Development Kit for Ruby
 ====================
 This is a Client library that can talk to the HPE 3PAR Storage array.  The 3PAR
