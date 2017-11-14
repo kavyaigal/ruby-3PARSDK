@@ -173,6 +173,7 @@ To view the built documentation point your browser to:
 Feature Requests
 -----------------
 If you have a need that is not met by the current implementation, please let us know by creating a new issue.
+You must sign a Contributor License Agreement first. Contact one of the authors (from Hewlett Packard Enterprise) for details and the CLA.
 
 How to contribute
 ============
